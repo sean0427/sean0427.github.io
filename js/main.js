@@ -1,3 +1,6 @@
+/** @jsx React.DOM */
+//to using jsx must have this line
+
 var Hello = React.createClass({
     render: function(){
         return <div>Hello {this.props.name}</div>;
